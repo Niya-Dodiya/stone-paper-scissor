@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: blue;
+line-height: 5 rem;
+height: 5 rem;
+text-align: center;}
+.logo{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+     object-fit: cover;/*for fit the object in div */
+    border-radius: 50%;
+
+}
+.logoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0,0,0,0.6px;
+}
+.logo:hover{
+ /* border: 3px solid black; */
+cursor: pointer;
+background-color: darkred;
+}
+.scores{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    
+}
+.msg{
+    /* text-align: center; */
+    font-size: 2rem;
+    background-color: aqua;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.msg-con{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
